@@ -7,7 +7,7 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
 
-	<!--1、默认就是包含所有 更改扫描 本项目下的controller;  -->
+	<!--1、默认就是包含所有 更改扫描 本项目下的controller  -->
 	<context:component-scan base-package="com.chilema.restapi" use-default-filters="false">
 		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller" />
 	</context:component-scan>

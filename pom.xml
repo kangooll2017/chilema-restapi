@@ -9,9 +9,7 @@
   <artifactId>chilema-restapi</artifactId>
   <packaging>war</packaging>
   
-  <!-- 返回json数据的接口层 -->
 	<dependencies>
-
 		<dependency>
 			<groupId>com.chilema.item</groupId>
 			<artifactId>manager-pojo</artifactId>

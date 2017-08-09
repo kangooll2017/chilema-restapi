@@ -3,7 +3,7 @@ package com.chilema.restapi.bean;
 import java.util.Map;
 
 /**
- * 因为涉及到很多的返回值类型，所以ScwReturn<T>包含的对象类型为泛型；
+ * 因为涉及到很多的返回值类型，所以ScwReturn<T>包含的对象类型为泛型；测试
  * @param <T>
  */
 public class ScwReturn<T> {
